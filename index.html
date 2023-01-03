@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notion Notes</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5/distr/fira_code.css"
+    />
+    <style>
+        /* Specify in CSS */
+        code {
+          font-family: "Fira Code", monospace;
+        }
+  
+        @supports (font-variation-settings: normal) {
+          code {
+            font-family: "Fira Code VF", monospace;
+          }
+        }
+      </style>
+
 </head>
 <body>
     <h1>Notion Notes</h1>
@@ -18,7 +35,7 @@
         <li>Create a new folder on File Explorer using same name as Repo.</li>
         <li>Open that folder on VS Code.</li>
         <li>Open terminal and select Git Bash.</li>
-        <li>Type <code>echo "# repo name" >> README.md</code> and press Enter. (A new README.md file will be created.)</li>
+        <li>Type <code class="code-color">echo "# repo name" >> README.md</code> and press Enter. (A new README.md file will be created.)</li>
         <li>Type git init and press Enter. </li>
         <li>Type git add . and press Enter.</li>
         <li>Type git commit -m "Meaningful Message" and press Enter. </li>
