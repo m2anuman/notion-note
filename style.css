@@ -1,23 +1,39 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
 }
 code{
-    color: rgb(238, 107, 107);
-    background-color: rgb(222, 240, 240); 
+    color: rgb(156, 70, 70);
+    background-color: rgb(247, 235, 218); 
     font-family: "Fira Code", monospace;
     font-size: 16px;
 }
-.bg-sage{
-    background-color: seagreen;
-}
-.text-red{
-    color: maroon;
-}
-
 li{
     font-size: 18px;
     margin: 2px;
 }
 ol{
     margin: 2px;
+}
+.list1{
+    text-align: left;
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    border-style: double;
+    padding: 10px;
+    background: rgb(219, 240, 221);
+    width: 45%;
+    position: relative;
+}
+
+.list2{
+    
+    border: 5px solid skyblue;
+    border-radius: 20px;
+    border-style: double;
+    padding: 10px;
+    background: rgb(219, 240, 221);
+    width: 45%;
+    position: relative;
+
 }
