@@ -5,6 +5,7 @@ code{
     color: rgb(238, 107, 107);
     background-color: rgb(222, 240, 240); 
     font-family: "Fira Code", monospace;
+    font-size: 16px;
 }
 .bg-sage{
     background-color: seagreen;
@@ -12,9 +13,11 @@ code{
 .text-red{
     color: maroon;
 }
-.code-color{
-    
-}
+
 li{
-    font-size: 20px;
+    font-size: 18px;
+    margin: 2px;
+}
+ol{
+    margin: 2px;
 }
